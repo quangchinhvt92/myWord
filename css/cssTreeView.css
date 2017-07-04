@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+	height:500px;
+}
+.rvmTreeView{
+    width: 20%;
+    height: 100%;
+	overflow:scroll;
+	position:relative;
+}
+.rvmTreeView>.Folder{
+	position:absolute;
+	left:30px;
+}
+.folder>ul{
+	padding-left:20px;
+}

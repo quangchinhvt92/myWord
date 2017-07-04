@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Demo</title>
+    <link href="css/cssTreeView.css" type="text/css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/jsTreeView.js"></script>
+</head>
+<body>
+    <div class="rvmTreeView">
+        <h2>Root Folder</h2>
+        <ul class="Folder">
+            <li class="file"><label>file-1.txt</label></li>
+            <li class="file"><label>file-2.txt</label></li>
+            <li class="file"><label>file-3.txt</label></li>
+            <li class="folder">
+                <h2>Folder-1</h2>
+                <ul>
+                    <li class="file"><label>file-4.txt</label></li>
+                    <li class="file"><label>file-5.txt</label></li>
+                    <li class="file"><label>file-6.txt</label></li>
+                </ul>
+            </li>
+            <li class="folder">
+                <h2>Folder-2</h2>
+                <ul>
+                    <li class="file"><label>file-7.txt</label></li>
+                    <li class="file"><label>file-8.txt</label></li>
+                    <li class="file"><label>file-9.txt</label></li>
+                    <li class="folder">
+                        <h2>Folder-3</h2>
+                        <ul>
+                            <li><label>file-10.txt</label></li>
+                            <li><label>file-11.txt</label></li>
+                            <li><label>file-12.txt</label></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
