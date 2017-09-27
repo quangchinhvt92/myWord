@@ -1,0 +1,49 @@
+/* Button mặc định*/
+*{
+	color: #00327F;
+	font-size: 20px;
+	font-family: "Cormorant+Garamond";
+}
+
+.btn{
+	border-radius: 3px;
+	border: 1px solid #4C92FF;
+	color: #00327F;
+	text-decoration: none;
+	padding: 5px 10px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.btn:hover{
+	background-color: #4C92FF;
+}
+
+/* Kích thước button*/
+.btn-small{
+	font-size: 15px !important;
+	padding: 2px 5px !important;
+}
+
+.btn-medium{
+	font-size: 20px !important;
+	padding: 3px 7px;
+}
+
+.btn-large{
+	font-size: 25px !important;
+}
+
+/* Thay đổi màu cho button*/
+.btn-primary{
+	border: 1px solid #0064FF;
+	background-color: #0064FF;
+	color: white;
+	
+}
+
+.btn-primary:hover{
+	background-color: #4C92FF !important;
+	border-color: #4C92FF !important;
+	
+}

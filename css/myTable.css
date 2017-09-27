@@ -1,0 +1,19 @@
+table{
+	width:100%;
+	color: #00327F;
+	border-collapse: collapse;
+}
+
+th, tbody td{
+	padding:5px 0;
+	border-bottom: 1px solid #4C92FF;
+}
+
+th{
+	border-width: 3px;
+}
+
+tbody tr:hover td{
+	background-color: #4C92FF;
+	color: white;
+}
