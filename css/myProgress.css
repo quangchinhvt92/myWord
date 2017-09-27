@@ -1,0 +1,21 @@
+.progress{
+	width: 100%;
+	background-color: #4C92FF;
+	display:block;
+	height:25px;
+}
+.progress .progress-bar{
+	background-color: #26497F;
+	height: 100%;
+}
+
+.progress-1{
+	width: 100%;
+	border: 1px solid #0064FF;
+	display:block;
+	height:25px;
+}
+.progress-1 .progress-bar-1{
+	background-color: #0064FF;
+	height: 100%;
+}

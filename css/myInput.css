@@ -1,0 +1,32 @@
+input[type="text"], input[type="number"]{
+	border: 1px solid #0064FF;
+	border-radius: 3px;
+	padding: 5px;
+	-moz-box-shadow: 0px 3px 4px #0064FF;
+	-webkit-box-shadow: 0px 3px 4px #0064FF;
+	box-shadow: 0px 3px 4px #0064FF;
+}
+
+input[type="checkbox"]{
+	display: none;
+}
+
+input[type="checkbox"] + label{
+	display:inline-block;
+	padding: 2px 2px;
+    width:15px;
+    height:15px;
+    border: 2px solid #0064FF;
+    border-radius: 5px;
+    background-color: white;
+}
+
+input[type="checkbox"]:checked + label{
+	display:inline-block;
+    width:15px;
+    height:15px;
+    border: 2px solid #0064FF;
+    border-radius: 5px;
+    background-color: #0064FF;
+}
+

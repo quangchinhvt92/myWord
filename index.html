@@ -5,26 +5,35 @@
 	<title>Library css</title>
 	<link rel="stylesheet" type="text/css" href="css/button.css">
 	<link rel="stylesheet" type="text/css" href="css/myTable.css">
-	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/myAvatar.css">
+	<link rel="stylesheet" type="text/css" href="css/myAlert.css">
+	<link rel="stylesheet" type="text/css" href="css/myProgress.css">
+	<link rel="stylesheet" type="text/css" href="css/myInput.css">
 </head>
 <body>
-	<!-- Button -->
-	<div><p>Button: </p></div>
 	<div>
+		Monochromatic rule: 00327F, 4C92FF, 0064FF, 26497F, 0050CC.
+	</div>
+	<!-- Button -->
+	<div>
+		<h2>Button:</h2>
 		<a class="btn btn-small" href="#">Save</a>
 		<a class="btn btn-medium" href="#">Save</a>
 		<a class="btn btn-large" href="#">Save</a>
 		<a class="btn btn-large btn-primary" href="#">Save</a>
+		<a class="btn btn-large btn-table" href="#">Save</a>
 
 		<button type="button" class="btn btn-small" href="#">Save</button>
 		<button type="button" class="btn btn-medium" href="#">Save</button>
 		<button type="button" class="btn btn-large" href="#">Save</button>
+		<button type="button" class="btn btn-large" href="#">+</button>
 		<button type="button" class="btn btn-large btn-primary" href="#">Save</button>
+		<button type="button" class="btn btn-large btn-table" href="#">Save</button>
 	</div>
 
 	<!-- Table -->
-	<div><p>Table: </p></div>
 	<div style="width:1000px;">
+		<h2>Table:</h2>
 		<table>
 			<thead>
 				<tr>
@@ -32,7 +41,7 @@
                     <th>Position</th>
                   	<th>Office</th>
                   	<th>Age</th>
-                  	<th></th>
+                  	<th>Handles</th>
 				</tr>
 			</thead>
 			<tfoot>
@@ -50,52 +59,126 @@
                   <td>System Architect</td>
                   <td>Edinburgh</td>
                   <td>61</td>
-                  <td class="text-center"><a href="#" class="btn btn-small btn-primary">Chi Tiết</a></td>
+                  <td class="text-center"><a href="#" class="btn btn-small btn-table">Chi Tiết</a></td>
                 </tr>
                 <tr>
                   <td>Garrett Winters</td>
                   <td>Accountant</td>
                   <td>Tokyo</td>
                   <td>63</td>
-                  <td class="text-center"><a href="#" class="btn btn-small btn-primary">Chi Tiết</a></td>
+                  <td class="text-center"><a href="#" class="btn btn-small btn-table">Chi Tiết</a></td>
                 </tr>
                 <tr>
                   <td>Ashton Cox</td>
                   <td>Junior Technical Author</td>
                   <td>San Francisco</td>
                   <td>66</td>
-                  <td class="text-center"><a href="#" class="btn btn-small btn-primary">Chi Tiết</a></td>
+                  <td class="text-center"><a href="#" class="btn btn-small btn-table">Chi Tiết</a></td>
                 </tr>
                 <tr>
                   <td>Cedric Kelly</td>
                   <td>Senior Javascript Developer</td>
                   <td>Edinburgh</td>
                   <td>22</td>
-                  <td class="text-center"><a href="#" class="btn btn-small btn-primary">Chi Tiết</a></td>
+                  <td class="text-center"><a href="#" class="btn btn-small btn-table">Chi Tiết</a></td>
                 </tr>
                 <tr>
                   <td>Airi Satou</td>
                   <td>Accountant</td>
                   <td>Tokyo</td>
                   <td>33</td>
-                  <td class="text-center"><a href="#" class="btn btn-small btn-primary">Chi Tiết</a></td>
+                  <td class="text-center"><a href="#" class="btn btn-small btn-table">Chi Tiết</a></td>
                 </tr>
                 <tr>
                   <td>Brielle Williamson</td>
                   <td>Integration Specialist</td>
                   <td>New York</td>
                   <td>61</td>
-                  <td class="text-center"><a href="#" class="btn btn-small btn-primary">Chi Tiết</a></td>
+                  <td class="text-center"><a href="#" class="btn btn-small btn-table">Chi Tiết</a></td>
                 </tr>
                 <tr>
                   <td>Herrod Chandler</td>
                   <td>Sales Assistant</td>
                   <td>San Francisco</td>
                   <td>59</td>
-                  <td class="text-center"><a href="#" class="btn btn-small btn-primary">Chi Tiết</a></td>
+                  <td class="text-center"><a href="#" class="btn btn-small btn-table">Chi Tiết</a></td>
                 </tr>
 			</tbody>
 		</table>
+	</div>
+	<div><p>Avatar: </p></div>
+	<div>
+		<img src="http://placehold.it/50x50" alt="" class="avatar-large avatar-circle">
+		<img src="http://placehold.it/50x50" alt="" class="avatar-medium avatar-circle">
+		<img src="http://placehold.it/50x50" alt="" class="avatar-default avatar-circle">
+		<img src="http://placehold.it/50x50" alt="" class="avatar-large avatar-radius">
+		<img src="http://placehold.it/50x50" alt="" class="avatar-medium avatar-radius">
+		<img src="http://placehold.it/50x50" alt="" class="avatar-default avatar-radius">
+		<img src="http://placehold.it/50x50" alt="" class="avatar-large avatar-radius avatar-thumbnail">
+		<img src="http://placehold.it/50x50" alt="" class="avatar-medium avatar-radius avatar-thumbnail">
+		<img src="http://placehold.it/50x50" alt="" class="avatar-default avatar-radius avatar-thumbnail">
+	</div>
+	<div>
+		<h2>Alerts</h2>
+		<div class="alert">
+			Info! This alert box indicates a neutral informative change or action.
+		</div>
+		<br>
+		<div class="alert-small">
+			Info! This alert box indicates a neutral informative change or action.
+		</div>
+		<br>
+		<div class="alert alert-danger">
+			Info! This alert box indicates a neutral informative change or action.
+		</div>
+	</div>
+	<div>
+		<h2>Progress Bar</h2>
+		<div class="progress">
+			<div class="progress-bar" style="width:50%">
+			</div>
+		</div>
+		<br>
+		<div class="progress-1">
+			<div class="progress-bar-1" style="width:30%">
+			</div>
+		</div>
+	</div>
+	<div>
+		<h2>Input:</h2>
+		<form>
+			<div>
+				<input type="text" placeholder="text" />
+			</div>
+			<br>
+			<div>
+				<input type="number" placeholder="number" />
+			</div>
+			<br>
+			<div>
+				<input type="checkbox" id="cb1"/><label for="cb1">L</label>
+				Checkbox 1!
+			</div>
+			<br>
+			<div>
+				<input type="checkbox">Checkbox 2!</input>
+			</div>
+			<br>
+			<div>
+				<input type="checkbox">Checkbox 3!</input>
+			</div>
+			<div>
+				<input type="radio" name="selector">RadioButton 1!</input>
+			</div>
+			<br>
+			<div>
+				<input type="radio" name="selector">RadioButton 2!</input>
+			</div>
+			<br>
+			<div>
+				<input type="radio" name="selector">RadioButton 3!</input>
+			</div>
+		</form>
 	</div>
 </body>
 </html>

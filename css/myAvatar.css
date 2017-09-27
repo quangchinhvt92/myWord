@@ -1,0 +1,24 @@
+.avatar-default{
+	width: 50px;
+}
+
+.avatar-medium{
+	width: 75px;
+}
+
+.avatar-large{
+	width: 100px;
+}
+
+.avatar-radius{
+	border-radius: 5%;
+}
+
+.avatar-circle{
+	border-radius: 50%;
+}
+
+.avatar-thumbnail{
+	padding: 3px;
+	border: 1px solid #4C92FF !important;
+}
