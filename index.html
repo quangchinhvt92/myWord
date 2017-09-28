@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="css/myAlert.css">
 	<link rel="stylesheet" type="text/css" href="css/myProgress.css">
 	<link rel="stylesheet" type="text/css" href="css/myInput.css">
+	<link rel="stylesheet" type="text/css" href="css/myVerticalMenu.css">
 </head>
 <body>
 	<div>
@@ -156,29 +157,86 @@
 			</div>
 			<br>
 			<div>
-				<input type="checkbox" id="cb1"/><label for="cb1">L</label>
+				<input type="email" placeholder="email" />
+			</div>
+			<br>
+			<div>
+				<input type="date"/>
+			</div>
+			<br>
+			<div>
+				<input type="month"/>
+			</div>
+			<br>
+			<div>
+				<input type="time"/>
+			</div>
+			<br>
+			<div>
+				<input type="week"/>
+			</div>
+			<br>
+			<div>
+				<input type="url" placeholder="www.google.com" />
+			</div>
+			<br>
+			<div>
+				<input type="checkbox" id="cb1"/><label for="cb1"></label>
 				Checkbox 1!
 			</div>
 			<br>
 			<div>
-				<input type="checkbox">Checkbox 2!</input>
+				<input type="checkbox" id="cb2"/><label for="cb2"></label>
+				Checkbox 2!
 			</div>
 			<br>
 			<div>
-				<input type="checkbox">Checkbox 3!</input>
-			</div>
-			<div>
-				<input type="radio" name="selector">RadioButton 1!</input>
+				<input type="checkbox" id="cb3"/><label for="cb3"></label>
+				Checkbox 3!
 			</div>
 			<br>
 			<div>
-				<input type="radio" name="selector">RadioButton 2!</input>
+				<input type="radio" name="selector" id="rb1"/><label for="rb1"></label>
+				RadioButton 1!
 			</div>
 			<br>
 			<div>
-				<input type="radio" name="selector">RadioButton 3!</input>
+				<input type="radio" name="selector" id="rb2"/><label for="rb2"></label>
+				RadioButton 2!
+			</div>
+			<br>
+			<div>
+				<input type="radio" name="selector" id="rb3"/><label for="rb3"></label>
+				RadioButton 3!
+			</div>
+			<br>
+			<div>
+				<input type="color" value="red"/><label>Color</label>
+			</div>
+			<br>
+			<div>
+				<input type="submit" class="btn btn-large btn-primary" />
 			</div>
 		</form>
+	</div>
+	<div>
+		<h2>Menu: </h2>
+		<div class="vertical-menu">
+			<ul>
+				<li><a href="#">Link 1!</a></li>
+				<li><a href="#">Link 2!</a></li>
+				<li><a href="#">Link 3!</a></li>
+				<li><a href="#">Link 4!</a></li>
+				<li><a href="#">Link 5!</a>
+					<ul>
+						<li><a href="#">Link 5-1!</a></li>
+						<li><a href="#">Link 5-2!</a></li>
+						<li><a href="#">Link 5-3!</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Link 6!</a></li>
+			</ul>
+		</div>
 	</div>
 </body>
 </html>
